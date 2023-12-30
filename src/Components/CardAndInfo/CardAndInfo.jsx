@@ -9,7 +9,7 @@ const CardAndInfo = () => {
      const [courseName, setCourseName] = useState([]);
      const [totalCredit, setTotalCredit] = useState(0);
      const [totalPrice, setTotalPrice] = useState(0);
-     const [remainingCreditHours, setRemainingCreditHours] = useState(100);
+     const [remainingCreditHours, setRemainingCreditHours] = useState(20);
 
      useEffect(()=>{
         const loadData = async () =>{
@@ -28,6 +28,7 @@ const CardAndInfo = () => {
 
     const courseSelectionHandler = (programme) => {
         //   console.log(programme);
+        
         const courseTitle = [...courseName, programme.course_title];
         setCourseName(courseTitle);
         const totalCreditHours = totalCredit + programme.credit;
@@ -35,6 +36,10 @@ const CardAndInfo = () => {
         const totalCoursePrice = totalPrice + programme.price;
         setTotalPrice(totalCoursePrice);
         const remainingCredit = remainingCreditHours - programme.credit;
+        
+        if(remainingCredit < 0){
+            return alert("Credit remaining hours cannot be minus figure.")
+        }
         setRemainingCreditHours(remainingCredit);
 
     }
