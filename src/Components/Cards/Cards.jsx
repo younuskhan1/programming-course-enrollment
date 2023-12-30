@@ -1,11 +1,18 @@
+import PropTypes from 'prop-types'; // ES6
 import "./Cards.css"
+import Card from '../Card/Card';
 
-const Cards = () => {
+const Cards = ({programmes}) => {
+    
     return (
         <div className="cards-parents">
-            <p className="cards-section-title">cards are available here</p>
+            {
+                programmes.map((programme, index) => <Card key={index} programme = {programme}></Card>)
+            }
         </div>
     );
 };
-
+Cards.propTypes = {
+    programmes:PropTypes.array.isRequired,
+} 
 export default Cards;

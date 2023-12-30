@@ -21,7 +21,7 @@
         "id": 3,
         "image": "https://i.ibb.co/pXTF23D/c-programming.webp",
         "course_title": "Introduction to C++ for DSA",
-        "course_description": "Algorithms Complete Course using C++ We have got a course for you DSA Self-Paced which can help you to upskill yourself for job placement.",
+        "course_description": "Algorithms Complete Course using C++ We have got a course for you DSA Self-Paced which can help you to upskill yourself for job placement in a better place.",
         "credit": 10,
         "price": 15000,
         "quantity": 0
@@ -30,7 +30,7 @@
         "id": 4,
         "image": "https://i.ibb.co/Jmw4jk5/data-structuring.jpg",
         "course_title": "Basic Data Structures",
-        "course_description": "A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed.",
+        "course_description": "A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed to any operating system efficiently.",
         "credit": 5,
         "price": 17000,
         "quantity": 0
@@ -39,7 +39,7 @@
         "id": 5,
         "image": "https://i.ibb.co/0nThPmz/python-oop.webp",
         "course_title": "Preface to OOP Python",
-        "course_description": "Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.",
+        "course_description": "Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming but it is very difficult to remember and execute programme.",
         "credit": 5,
         "price": 20000,
         "quantity": 0
@@ -48,7 +48,7 @@
         "id": 6,
         "image": "https://i.ibb.co/WHrgHtL/software-engineering.jpg",
         "course_title": "Software Engineering",
-        "course_description": "Software engineering is the branch of computer science that deals with the design, development and maintenance of software applications.",
+        "course_description": "Software engineering is the branch of computer science that deals with the design, development and maintenance of software applications in an effective and efficient way.",
         "credit": 2,
         "price": 16000,
         "quantity": 0
