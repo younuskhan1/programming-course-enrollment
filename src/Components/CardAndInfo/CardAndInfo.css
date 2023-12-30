@@ -5,3 +5,10 @@
     padding: 25px 25px;
     background-color: rgb(243, 241, 241);
 }
+
+@media screen and (max-width: 1025px) {
+    .card-and-info-parent{
+    flex-direction: column-reverse;
+    padding: 10px 10px;
+    }
+}
