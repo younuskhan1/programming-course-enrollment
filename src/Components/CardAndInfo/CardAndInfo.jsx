@@ -6,6 +6,8 @@ import "./CardAndInfo.css";
 
 const CardAndInfo = () => {
      const [programmes, setProgrammes] = useState ([]);
+     const [courseName, setCourseName] = useState([]);
+     const [totalCredit, setTotalCredit] = useState(0);
 
      useEffect(()=>{
         const loadData = async () =>{
@@ -21,10 +23,19 @@ const CardAndInfo = () => {
         }
         loadData();
      },[])
+
+    const courseSelectionHandler = (programme) => {
+        //   console.log(programme);
+        const courseTitle = [...courseName, programme.course_title];
+        setCourseName(courseTitle);
+        const totalCreditHours = totalCredit + programme.credit;
+        setTotalCredit(totalCreditHours);
+
+    }
     return (
         <div className="card-and-info-parent">
-            <Cards programmes={programmes}></Cards>
-            <Information></Information>    
+            <Cards programmes={programmes} courseSelectionHandler ={courseSelectionHandler}></Cards>
+            <Information courseName={courseName} totalCredit={totalCredit}></Information>    
         </div>
     );
 };

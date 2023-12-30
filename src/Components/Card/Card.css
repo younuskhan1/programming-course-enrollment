@@ -39,6 +39,15 @@
     padding: 0px 10px 10px 15px;
 }
 
+.fa-book-open{
+  color: blue;
+}
+.dollar-sign{
+  color: blue;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
 .card-button{
   appearance: none;
   background-color: #2ea44f;

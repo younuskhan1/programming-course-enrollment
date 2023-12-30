@@ -16,11 +16,10 @@
 .course-name{
     text-align: left;
     font-size: 22px;
-    padding: 20px 0px 20px;
+    padding: 20px 0px 0px;
     margin: 0px 20px;
     font-weight: 700;
     color: #2F80ED;
-    border-bottom: 1px solid black;
 }
 .total-credit{
     text-align: left;
@@ -38,6 +37,16 @@
     margin: 0px 20px;
     font-weight: 700;
     color: #2F80ED;
+}
+.each-name-from-data{
+    text-align: left;
+    font-size: 18px;
+    padding: 12px 0px 18px 0px;
+    font-weight: 700;
+    color: #2F80ED;
+    line-height: 1.6rem;
+    border-bottom: 1px solid black;
+    margin: 0px 20px;
 }
 @media screen and (max-width: 1025px) {
     .information-parents{
