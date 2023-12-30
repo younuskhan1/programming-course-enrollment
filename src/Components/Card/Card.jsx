@@ -11,7 +11,7 @@ const Card = ({programme, courseSelectionHandler}) => {
                 <p className='course-description'>{course_description}</p>
                 <div className='price-and-credits'>
                     <p><span className='dollar-sign'>$</span> Price : {price}</p>
-                    <p><span><i className="fa-solid fa-book-open"></i></span> Credits : {credit}<span>hrs</span></p>
+                    <p><span><i className="fa-solid fa-book-open"></i></span> Credits : {credit}<span> hrs</span></p>
                 </div>
             </div>
             <div className='card-button-div'><button className='card-button' onClick={()=>courseSelectionHandler(programme)}>Select</button></div>

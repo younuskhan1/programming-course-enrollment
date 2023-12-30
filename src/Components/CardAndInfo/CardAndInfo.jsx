@@ -8,6 +8,7 @@ const CardAndInfo = () => {
      const [programmes, setProgrammes] = useState ([]);
      const [courseName, setCourseName] = useState([]);
      const [totalCredit, setTotalCredit] = useState(0);
+     const [totalPrice, setTotalPrice] = useState(0);
 
      useEffect(()=>{
         const loadData = async () =>{
@@ -30,12 +31,14 @@ const CardAndInfo = () => {
         setCourseName(courseTitle);
         const totalCreditHours = totalCredit + programme.credit;
         setTotalCredit(totalCreditHours);
+        const totalCoursePrice = totalPrice + programme.price;
+        setTotalPrice(totalCoursePrice);
 
     }
     return (
         <div className="card-and-info-parent">
             <Cards programmes={programmes} courseSelectionHandler ={courseSelectionHandler}></Cards>
-            <Information courseName={courseName} totalCredit={totalCredit}></Information>    
+            <Information courseName={courseName} totalCredit={totalCredit} totalPrice={totalPrice}></Information>    
         </div>
     );
 };
