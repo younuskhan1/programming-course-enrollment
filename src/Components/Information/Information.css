@@ -1,7 +1,8 @@
 .information-parents{
     width: 25%;
-    border-radius: 15px;
+    border-radius: 12px;
     background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .information-title{
     /* text-align: center; */
