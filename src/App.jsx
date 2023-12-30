@@ -1,14 +1,15 @@
 
 import './App.css'
+import CardAndInfo from './Components/CardAndInfo/CardAndInfo'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   
 
   return (
-    <>
-      
-      <h2>Vite + React</h2>
-      
+    <> 
+     <Navbar></Navbar> 
+     <CardAndInfo></CardAndInfo>
     </>
   )
 }
