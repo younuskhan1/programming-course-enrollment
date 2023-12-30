@@ -36,8 +36,7 @@ const CardAndInfo = () => {
         const totalCoursePrice = totalPrice + programme.price;
         setTotalPrice(totalCoursePrice);
         const remainingCredit = remainingCreditHours - programme.credit;
-        
-        if(remainingCredit < 0){
+        if (remainingCredit < 0){
             return alert("Credit remaining hours cannot be minus figure.")
         }
         setRemainingCreditHours(remainingCredit);
