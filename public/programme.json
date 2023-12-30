@@ -5,7 +5,8 @@
         "course_title": "Preface to C Programming",
         "course_description": "C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs.It's very important for our job.",
         "credit": 1,
-        "price": 15000
+        "price": 15000,
+        "quantity": 0
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "course_title": "Introduction to Algorithms",
         "course_description": "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs, online algorithms, machine learning and database.",
         "credit": 2,
-        "price": 25000
+        "price": 12000,
+        "quantity": 0
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "course_title": "Introduction to C++ for DSA",
         "course_description": "Algorithms Complete Course using C++ We have got a course for you DSA Self-Paced which can help you to upskill yourself for job placement.",
         "credit": 10,
-        "price": 10000
+        "price": 15000,
+        "quantity": 0
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "course_title": "Basic Data Structures",
         "course_description": "A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed.",
         "credit": 5,
-        "price": 35000
+        "price": 17000,
+        "quantity": 0
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "course_title": "Preface to OOP Python",
         "course_description": "Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.",
         "credit": 5,
-        "price": 19000
+        "price": 20000,
+        "quantity": 0
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "course_title": "Software Engineering",
         "course_description": "Software engineering is the branch of computer science that deals with the design, development and maintenance of software applications.",
         "credit": 2,
-        "price": 23000
+        "price": 16000,
+        "quantity": 0
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "course_title": "AWS, Cloud Computing",
         "course_description": "More than 100 AWS products are available on AWS Free Tier today. Three types of free offers are available depending on the product used in various situations of our life.",
         "credit": 5,
-        "price": 35000
+        "price": 18000,
+        "quantity": 0
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "course_title": "Database (MySQL)",
         "course_description": "MySQL is an open-source relational database management system. Its name is a combination of My, the name of co-founder Michael Widenius's daughter.",
         "credit": 5,
-        "price": 19000
+        "price": 5000,
+        "quantity": 0
     },
     {
         "id": 9,
@@ -69,6 +77,7 @@
         "course_title": "Problem-Solving Part",
         "course_description": "Problem solving is the process of achieving a goal by overcoming obstacles, a frequent part of most activities. Problems in need of solutions range in various situations.",
         "credit": 2,
-        "price": 23000
+        "price": 8000,
+        "quantity": 0
     }
 ]
