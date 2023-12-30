@@ -1,6 +1,40 @@
 .information-parents{
     width: 25%;
+    border-radius: 15px;
+    background-color: #ffff;
 }
 .information-title{
-    text-align: center;
+    /* text-align: center; */
+    font-size: 19px;
+    padding: 25px 0px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
+    color: #2F80ED;
+    border-bottom: 1px solid black;
+}
+.course-name{
+    text-align: left;
+    font-size: 22px;
+    padding: 20px 0px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
+    color: #2F80ED;
+    border-bottom: 1px solid black;
+}
+.total-credit{
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 0px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
+    color: #2F80ED;
+    border-bottom: 1px solid black;
+}
+.total-price{
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 0px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
+    color: #2F80ED;
 }

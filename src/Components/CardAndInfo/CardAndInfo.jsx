@@ -11,7 +11,7 @@ const CardAndInfo = () => {
             try{
                 const URL = "programme.json";
                 const response = await fetch(URL);
-                const data = await response.json()
+                const data = await response.json();
                 setProgrammes(data); 
             }
             catch(error){
