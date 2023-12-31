@@ -29,7 +29,16 @@ const CardAndInfo = () => {
      },[])
 
     const courseSelectionHandler = (programme) => {
-        
+
+        for(let course of courseName){
+            if(course === programme.course_title){
+                return toast.warn("You cannot add the same course for twice times.",{
+                    position: "top-center",
+                    theme: "dark",
+                });
+            }
+        }
+
         const remainingCredit = remainingCreditHours - programme.credit;
         if (remainingCredit < 0){
             return toast.info("Remaining credit hours must not be negetive value.",{
