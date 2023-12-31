@@ -38,7 +38,7 @@ const CardAndInfo = () => {
                 });
             }
         }
-
+        
         const remainingCredit = remainingCreditHours - programme.credit;
         if (remainingCredit < 0){
             return toast.info("Remaining credit hours must not be negetive value.",{
