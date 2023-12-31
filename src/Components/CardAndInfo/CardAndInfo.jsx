@@ -8,7 +8,7 @@ import "./CardAndInfo.css";
 const CardAndInfo = () => {
      const [programmes, setProgrammes] = useState ([]);
      const [remainingCreditHours, setRemainingCreditHours] = useState(20);
-     const [courseName, setCourseName] = useState([]);
+     const [courseName, setCourseName] = useState([]); 
      const [totalCredit, setTotalCredit] = useState(0);
      const [totalPrice, setTotalPrice] = useState(0);
     
@@ -29,7 +29,7 @@ const CardAndInfo = () => {
      },[])
 
     const courseSelectionHandler = (programme) => {
-        //   console.log(programme);
+        
         const remainingCredit = remainingCreditHours - programme.credit;
         if (remainingCredit < 0){
             return toast.info("Remaining credit hours must not be negetive value.",{
@@ -50,7 +50,11 @@ const CardAndInfo = () => {
     return (
         <div className="card-and-info-parent">
             <Cards programmes={programmes} courseSelectionHandler ={courseSelectionHandler}></Cards>
-            <Information courseName={courseName} totalCredit={totalCredit} totalPrice={totalPrice} remainingCreditHours = {remainingCreditHours}></Information>   
+            <Information courseName={courseName}
+             totalCredit={totalCredit}
+            totalPrice={totalPrice}
+            remainingCreditHours = {remainingCreditHours}
+            ></Information>   
             <ToastContainer /> 
         </div>
     );
